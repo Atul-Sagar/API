@@ -73,7 +73,9 @@ app.post('/api/actions', function (req, res) {
     console.log("currentAction : ", currentAction);
 
 
-    var insertQuery = `INSERT INTO Actions (name,value) VALUES ("${currentAction.name}", "${currentAction.value}")`
+
+    var insertQuery = `INSERT INTO Actions (name,controlType,value) VALUES ("${currentAction.name}","${currentAction.controlType}","${currentAction.value}");`
+    // var insertQuery = `INSERT INTO Actions (name,value) VALUES ("${currentAction.name}", "${currentAction.value}")`
     // var insertQuery = `INSERT INTO Actions (name,value) VALUES (${currentAction.name}, ${currentAction.value})`
 
 
