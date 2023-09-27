@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "co-browsing backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atul-Sagar/API.git"
+  },
+  "keywords": [
+    "co-browsing"
+  ],
+  "author": "Atul Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atul-Sagar/API/issues"
+  },
+  "homepage": "https://github.com/Atul-Sagar/API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
